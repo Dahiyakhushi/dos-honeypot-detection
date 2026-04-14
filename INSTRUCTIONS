@@ -1,0 +1,7 @@
+open 3 terminal for the each program
+in first Terminal
+1)python .\honeypot.py --host 127.0.0.1 --port 2222 --db honeypot_logs.db
+in second Terminal
+2) python .\dashboard.py --db honeypot_logs.db --minutes 30 --interval 3000
+in Third Terminal
+3) python .\dashboard.py --db honeypot_logs.db --minutes 30 --interval 3000
